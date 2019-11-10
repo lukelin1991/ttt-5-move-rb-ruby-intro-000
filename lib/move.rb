@@ -11,6 +11,6 @@ def input_to_index(i)
   i = i.to_i - 1
 end
 
-def move(board, index, value = "X" or "O")
+def move(board, index, value = "X")
   array[index] = value
 end
