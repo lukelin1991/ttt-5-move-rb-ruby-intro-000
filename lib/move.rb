@@ -11,3 +11,5 @@ def input_to_index(user_input)
   user_input = gets.strip
   puts "#{user_input.to_i}"
 end
+
+input_to_index(5)
