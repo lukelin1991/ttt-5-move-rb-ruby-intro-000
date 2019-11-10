@@ -12,5 +12,5 @@ def input_to_index(i)
 end
 
 def move(board, index, value = "X" or "O")
-  array[index] = "#{value}"
+  array[index] = value
 end
